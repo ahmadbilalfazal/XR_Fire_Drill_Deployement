@@ -1,0 +1,72 @@
+# This .gitignore file is optimized for your Unity MR project
+# It ignores the Library and PackageCache files causing your 100MB+ errors.
+
+# --- Core Unity Ignored Folders ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Pp]ackage[Cc]ache/
+.utmp/
+
+# --- Specific large binary types often found in cache ---
+*.log
+*.pdm
+*.opendb
+*.tlog
+
+# --- Visual Studio & IDEs ---
+.vs/
+.gradle/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.VC.db
+*.VC.opendb
+
+# --- Blender & 3D Tools ---
+*.blend1
+*.blend1.meta
+
+# --- Captures & Recordings ---
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# --- Plugins & Editors ---
+/[Aa]ssets/Plugins/Editor/JetBrains*
+*.DotSettings.user
+
+# --- Builds & Exports ---
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+ExportedObj/
+.consulo/
+
+# --- Addressables & Scripting ---
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/Unity.VisualScripting.Generated/
+
+# --- Crash Reports ---
+sysinfo.txt
+mono_crash.*
+crashlytics-build.properties
